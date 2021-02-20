@@ -47,7 +47,7 @@ pareto(x)
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (x) 
+function (x)
 {
   }
 }
