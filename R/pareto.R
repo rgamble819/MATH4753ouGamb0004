@@ -1,6 +1,6 @@
-
-#' @param matrix(2D) of variables, String title
-#' @return None
+#' Generate Pareto diagram
+#' @param x Data
+#' @return Pareto diagram
 #' @export
 pareto<-function(x,mn="Pareto barplot",...){  # x is a vector
   x.tab=table(x)
