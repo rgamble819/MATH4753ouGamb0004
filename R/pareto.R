@@ -16,3 +16,6 @@ pareto<-function(x,mn="Pareto barplot",...){  # x is a vector
   title(main=mn,...)
 }
 
+fire=read.csv("FIREDAM.csv")
+usethis::use_data(fire, overwrite = TRUE)
+
