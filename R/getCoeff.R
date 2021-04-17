@@ -4,6 +4,6 @@
 #' @param coef coefficients from summary
 #' @return the function generated
 #' @export
-getFunction = function(x,coef){
+getFunctionn = function(x,coef){
   coef[1]+coef[2]*(x) + coef[3]*(x-18)*(x-18>0)
 }

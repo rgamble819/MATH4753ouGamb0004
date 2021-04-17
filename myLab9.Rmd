@@ -1,0 +1,20 @@
+---
+title: "MATH4753 - myLab9"
+author: "Ryan Gamble"
+date: "4/4/2021"
+output:
+ html_document:
+    toc: yes
+    toc_float: yes
+    theme: spacelab
+    highlight: pygments
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
